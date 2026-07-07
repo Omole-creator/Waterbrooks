@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://waterbrooks.vercel.app"),
+  metadataBase: new URL("https://waterbrooks-technologies.vercel.app"),
   title: {
     default: "WaterBrooks Technologies | Solar-Powered Food Preservation",
     template: "%s | WaterBrooks Technologies",
