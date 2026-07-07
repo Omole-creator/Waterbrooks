@@ -326,7 +326,6 @@ export const community = {
     "If you care about reducing food waste, better post-harvest management, and smarter farming, there is a place for you here.",
     "Follow WaterBrooks Technologies and invite your friends, colleagues, and fellow farmers to do the same. Together we can build a stronger conversation around food preservation, storage innovation, and sustainable agriculture.",
   ],
-  followLabel: "Follow along",
   waitlist: {
     label: "Join the waiting list",
     subject: "Join the waiting list",

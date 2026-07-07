@@ -38,7 +38,7 @@ Git-connected to Vercel: pushing to `main` auto-deploys to production. To deploy
 
 **The contact form is mailto-only.** `ContactForm` composes an `mailto:` link to `site.email` on submit. There is no backend, API route, or email service. The **"Join the waiting list"** button in `components/CommunitySection.tsx` works the same way: a plain `mailto:` link to `site.email` with a prefilled subject. There is no waitlist backend.
 
-**Social links.** `site.socials` in `lib/content.ts` holds the platform, label, handle, and URL for Instagram, LinkedIn, and X. `components/SocialLinks.tsx` renders them as icon buttons (`variant="dark"` on green surfaces, `variant="light"` on cream). Because lucide-react no longer ships brand marks, the glyphs are inline SVGs in that file, not registry icons. It appears in the footer and in `CommunitySection`, which carries the "Help us grow the WaterBrooks community" copy and is used on the home and contact pages.
+**Social links.** `site.socials` in `lib/content.ts` holds the platform, label, handle, and URL for Instagram, LinkedIn, and X. `components/SocialLinks.tsx` renders them as icon buttons (`variant="dark"` on green surfaces, `variant="light"` on cream). Because lucide-react no longer ships brand marks, the glyphs are inline SVGs in that file, not registry icons. It appears only in the footer. `CommunitySection` carries the "Help us grow the WaterBrooks community" copy plus the waitlist CTA and is used on the home and contact pages (no social icons there).
 
 ## Styling
 

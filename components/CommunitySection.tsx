@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import WaveMark from "./WaveMark";
 import Reveal from "./Reveal";
-import SocialLinks from "./SocialLinks";
 import { community, site } from "@/lib/content";
 
 export default function CommunitySection() {
@@ -31,13 +30,6 @@ export default function CommunitySection() {
                   {p}
                 </p>
               ))}
-
-              <div className="mt-7">
-                <span className="block text-xs font-semibold uppercase tracking-[0.2em] text-green">
-                  {community.followLabel}
-                </span>
-                <SocialLinks variant="light" className="mt-3" />
-              </div>
             </div>
 
             <div className="rounded-2xl bg-green-deep p-7 text-cream shadow-lift sm:p-8">
