@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand palette pulled from the logo: greens + one orange accent */
+  /* Brand palette pulled from the logo: greens on cream and white */
   --color-cream: #faf8f2;
   --color-cream-2: #f2efe4;
   --color-ink: #14241a;
@@ -9,7 +9,6 @@
   --color-green: #1e7b3c;
   --color-green-deep: #103b23;
   --color-leaf: #6cbe45;
-  --color-orange: #e97c1e;
   --color-line: #e5e1d4;
 
   --font-display: var(--font-fraunces);

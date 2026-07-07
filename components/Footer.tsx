@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 import Logo from "./Logo";
+import SocialLinks from "./SocialLinks";
 import { nav, site } from "@/lib/content";
 
 export default function Footer() {
@@ -16,6 +17,7 @@ export default function Footer() {
               Solar-powered cold storage and smart monitoring that keep African
               harvests fresh, so farmers waste less and earn more.
             </p>
+            <SocialLinks variant="dark" className="mt-6" />
           </div>
 
           <nav aria-label="Footer">

@@ -14,7 +14,7 @@ export default function PageHero({ eyebrow, heading, body }: PageHeroProps) {
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
         <Reveal>
           <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-green">
-            <span className="h-1.5 w-1.5 rounded-full bg-orange" />
+            <span className="h-1.5 w-1.5 rounded-full bg-leaf" />
             {eyebrow}
           </span>
         </Reveal>

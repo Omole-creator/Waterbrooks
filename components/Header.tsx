@@ -55,7 +55,7 @@ export default function Header() {
         <div className="hidden md:block">
           <Link
             href="/contact"
-            className="group inline-flex items-center gap-1.5 rounded-full bg-orange px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-all hover:bg-[#d86e13] hover:shadow-lift"
+            className="group inline-flex items-center gap-1.5 rounded-full bg-green px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-all hover:bg-green-deep hover:shadow-lift"
           >
             Partner With Us
             <ArrowRight
@@ -99,7 +99,7 @@ export default function Header() {
             })}
             <Link
               href="/contact"
-              className="mt-2 inline-flex items-center justify-center gap-1.5 rounded-full bg-orange px-5 py-3 text-base font-semibold text-white"
+              className="mt-2 inline-flex items-center justify-center gap-1.5 rounded-full bg-green px-5 py-3 text-base font-semibold text-white"
             >
               Partner With Us
               <ArrowRight className="h-4 w-4" strokeWidth={2} />

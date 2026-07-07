@@ -142,7 +142,7 @@ export default function ContactForm() {
       </div>
 
       {error && (
-        <p role="alert" className="text-sm font-medium text-orange">
+        <p role="alert" className="text-sm font-semibold text-green-deep">
           {error}
         </p>
       )}

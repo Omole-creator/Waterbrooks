@@ -38,7 +38,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={0.1}>
             <div className="h-full rounded-3xl border border-line bg-white p-8 shadow-soft sm:p-10">
-              <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-orange/15 text-orange">
+              <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-green/10 text-green">
                 <Icon name="Globe2" className="h-6 w-6" />
               </span>
               <h2 className="mt-6 font-display text-2xl text-ink">Our vision</h2>
@@ -165,7 +165,7 @@ export default function AboutPage() {
                     key={d}
                     className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-ink"
                   >
-                    <span className="h-1.5 w-1.5 rounded-full bg-orange" />
+                    <span className="h-1.5 w-1.5 rounded-full bg-leaf" />
                     {d}
                   </span>
                 ))}

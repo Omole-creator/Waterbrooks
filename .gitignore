@@ -50,3 +50,6 @@ next-env.d.ts
 /_source
 /LOGO.jpg
 /Waterbrooks Website Content.docx
+
+.vercel
+.env*

@@ -6,6 +6,7 @@ import SectionHeading from "@/components/SectionHeading";
 import FeatureCard from "@/components/FeatureCard";
 import MetricCard from "@/components/MetricCard";
 import PartnerCTA from "@/components/PartnerCTA";
+import CommunitySection from "@/components/CommunitySection";
 import Icon from "@/components/Icon";
 import { home, contact } from "@/lib/content";
 
@@ -118,6 +119,10 @@ export default function HomePage() {
           </div>
         </Reveal>
       </section>
+
+      <div className="mb-20 sm:mb-28">
+        <CommunitySection />
+      </div>
 
       <PartnerCTA
         heading={home.closingCta.heading}

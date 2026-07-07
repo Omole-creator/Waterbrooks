@@ -23,7 +23,7 @@ export default function PartnerCTA({ heading, body, cta }: PartnerCTAProps) {
           </p>
           <Link
             href={cta.href}
-            className="group mt-8 inline-flex items-center gap-2 rounded-full bg-orange px-7 py-3.5 text-base font-semibold text-white shadow-lift transition-all hover:bg-[#d86e13]"
+            className="group mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-semibold text-green-deep shadow-lift transition-colors hover:bg-cream"
           >
             {cta.label}
             <ArrowRight

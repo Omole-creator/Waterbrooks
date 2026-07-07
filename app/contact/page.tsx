@@ -5,6 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
 import FeatureCard from "@/components/FeatureCard";
 import ContactForm from "@/components/ContactForm";
+import CommunitySection from "@/components/CommunitySection";
 import Icon from "@/components/Icon";
 import { contact, site } from "@/lib/content";
 
@@ -146,6 +147,10 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="py-20 sm:py-24">
+        <CommunitySection />
       </section>
     </>
   );

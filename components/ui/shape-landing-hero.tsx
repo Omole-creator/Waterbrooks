@@ -103,7 +103,7 @@ function HeroGeometric({
 
   return (
     <div className="relative flex min-h-[calc(100vh-5rem)] w-full items-center justify-center overflow-hidden bg-green-deep">
-      <div className="absolute inset-0 bg-gradient-to-br from-leaf/[0.10] via-transparent to-orange/[0.08] blur-3xl" />
+      <div className="absolute inset-0 bg-gradient-to-br from-leaf/[0.10] via-transparent to-green/[0.10] blur-3xl" />
 
       <div className="absolute inset-0 overflow-hidden">
         <ElegantShape
@@ -127,7 +127,7 @@ function HeroGeometric({
           width={300}
           height={80}
           rotate={-8}
-          gradient="from-orange/[0.20]"
+          gradient="from-[#8fd36a]/[0.20]"
           className="bottom-[6%] left-[4%] md:bottom-[10%] md:left-[10%]"
         />
         <ElegantShape
@@ -157,7 +157,7 @@ function HeroGeometric({
             animate="visible"
             className="mb-8 inline-flex items-center gap-2 rounded-full border border-cream/15 bg-cream/[0.04] px-4 py-1.5"
           >
-            <Circle className="h-2 w-2 fill-orange text-orange" />
+            <Circle className="h-2 w-2 fill-leaf text-leaf" />
             <span className="text-sm tracking-wide text-cream/70">{badge}</span>
           </motion.div>
 
@@ -172,7 +172,7 @@ function HeroGeometric({
                 {title1}
               </span>
               <br />
-              <span className="bg-gradient-to-r from-leaf via-cream to-orange bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-leaf via-cream to-leaf bg-clip-text text-transparent">
                 {title2}
               </span>
             </h1>
@@ -202,7 +202,7 @@ function HeroGeometric({
               {primaryCta && (
                 <Link
                   href={primaryCta.href}
-                  className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-orange px-7 py-3.5 text-base font-semibold text-white shadow-lift transition-all hover:bg-[#d86e13] sm:w-auto"
+                  className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-semibold text-green-deep shadow-lift transition-colors hover:bg-cream sm:w-auto"
                 >
                   {primaryCta.label}
                   <ArrowRight

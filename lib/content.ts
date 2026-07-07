@@ -12,6 +12,26 @@ export const site = {
     "Road 10b, House 7, Aho-Estate, Ajibode, Ibadan, Oyo State, Nigeria",
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=Aho-Estate+Ajibode+Ibadan+Oyo+State+Nigeria",
+  socials: [
+    {
+      platform: "instagram" as const,
+      label: "Follow WaterBrooks on Instagram",
+      handle: "@waterbrooks.technologies",
+      href: "https://instagram.com/waterbrooks.technologies",
+    },
+    {
+      platform: "linkedin" as const,
+      label: "Follow WaterBrooks on LinkedIn",
+      handle: "WaterBrooks Technologies",
+      href: "https://www.linkedin.com/company/waterbrookstechnologies/",
+    },
+    {
+      platform: "x" as const,
+      label: "Follow WaterBrooks on X",
+      handle: "@Waterbrook51234",
+      href: "https://x.com/Waterbrook51234",
+    },
+  ],
 };
 
 export const nav = [
@@ -297,4 +317,19 @@ export const contact = {
     "Tell us a little about you and how you would like to work together. Your message will open in your email app, ready to send.",
 
   orgTypes: ["Cooperative", "NGO", "Trader", "Investor", "Other"],
+};
+
+export const community = {
+  eyebrow: "Join the movement",
+  heading: "Help us grow the WaterBrooks community",
+  body: [
+    "If you care about reducing food waste, better post-harvest management, and smarter farming, there is a place for you here.",
+    "Follow WaterBrooks Technologies and invite your friends, colleagues, and fellow farmers to do the same. Together we can build a stronger conversation around food preservation, storage innovation, and sustainable agriculture.",
+  ],
+  followLabel: "Follow along",
+  waitlist: {
+    label: "Join the waiting list",
+    subject: "Join the waiting list",
+    body: "Hi WaterBrooks team, I would like to join the waiting list. Please keep me posted on your rollout.",
+  },
 };
